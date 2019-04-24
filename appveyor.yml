@@ -1,4 +1,5 @@
 environment:
+  image: Previous Visual Studio 2017
 
   # By default schannel checks revocation of certificates unlike some other SSL
   # backends, but we've historically had problems on CI where a revocation
